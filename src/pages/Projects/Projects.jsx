@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "🚀 Nuxt Supabase with Vue, JavaScript, PLpgSQL, SCSS",
+    title: "An agentic AI-powered B2B",
     description:
-      "Nuxt Supabase Realtime CRUD template with optimistic UI",
+      "An agentic AI-powered B2B lending platform focused on equipment financing, automating underwriting, servicing and credit workflows with smart SaaS tools.",
     src: "/nuxt_supabase.png",
     link: "/nuxt_supabase.png",
     color: "#fff",
@@ -15,9 +15,9 @@ const projects = [
     liveLink: "https://nuxt-supabase.netlify.app/",
   },
   {
-    title: "🚀 Docker-Docker-Compose with Python, Go, Shell, Php",
+    title: "Realtime AI credit scoring and decisioning",
     description:
-      "How can Django, Express.js, Adonis.js, FastAPI, Flask, Posgresql, and Nginx run under one roof? One great answer is Docker Compose. This tutorial will show you how.",
+      "Realtime AI credit scoring and decisioning project offering scorecards, behavioral analytics and automated risk predictions.",
     src: "/DockerCompose.jpg",
     link: "/DockerCompose.jpg",
     color: "#fff",
@@ -26,9 +26,9 @@ const projects = [
   },
 
   {
-    title: "🚀 LLM + MCP + RAG with Typescript",
+    title: "AI powered commercial real estate",
     description:
-      "LLM + MCP + RAG",
+      "AI powered commercial real estate lending project automating origination, portfolio intelligence, underwriting and deal monitoring",
     src: "/llm-mcp.png",
     link: "/llm-mcp.png",
     color: "#fff",
@@ -36,9 +36,9 @@ const projects = [
     // liveLink: "https://codewhisperer.vercel.app/",
   },
   {
-    title: "🚀 AI Chatbot with Typescript, Javascript, CSS",
+    title: "AI agent application",
     description:
-      "A full-featured, hackable Next.js AI chatbot",
+      "Provides turnkey AI agent applications that automate end to end lending, banking and wealth workflows for fintech innovation",
     src: "/ai-chatbot.png",
     link: "/ai-chatbot.png",
     color: "#5196fd",
