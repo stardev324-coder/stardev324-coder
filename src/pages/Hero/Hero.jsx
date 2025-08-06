@@ -56,14 +56,11 @@ export default function Hero() {
 const profile = {
     name: 'Adrian Navarro',
     title: 'Senior AI Engineer',
-
-
-
-
     skills: [
-        "LLM Tuning", "Retrieval Augmented Generation", "AI Agents", "Chatbot", "MLOps", "Cloud ML",
-        "Big Data Technologies", "LangChain", "Automation", "Data Pipeline", "Multimodal AI",
-        "AI SaaS", "Workflow AI", "Natural Language Processing", "AI Builder"
+        "LLM Tuning", "Retrieval Augmented Generation", "AI Agents", "Chatbot", 
+        "MLOps", "Cloud ML", "Big Data Technologies", "LangChain", "Automation", 
+        "Data Pipeline", "Multimodal AI", "AI SaaS", "Workflow AI", 
+        "Natural Language Processing", "AI Builder"
     ],
     hardWorker: true,
     quickLearner: true,
