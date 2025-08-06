@@ -198,7 +198,7 @@ const SkillsSection = () => {
     },
     {
       icon: TbAi,
-      title: "AI App Development",
+      title: "AI Development",
       color: "text-orange-400",
       skills: [
         {
