@@ -75,7 +75,7 @@ const EducationSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent mb-6">
-            Educational Journey
+            al Journey
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
             Discover how academic excellence shapes innovative thinking and

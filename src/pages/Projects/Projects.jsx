@@ -5,44 +5,76 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "🚀 Nuxt Supabase with Vue, JavaScript, PLpgSQL, SCSS",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
-  },
-  {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
-    description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
-  },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+      "Nuxt Supabase Realtime CRUD template with optimistic UI",
+    src: "/nuxt_supabase.png",
+    link: "/nuxt_supabase.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/sunnydev830/nuxt-supabase",
+    liveLink: "https://nuxt-supabase.netlify.app/",
   },
   {
-    title: "CodeKori 🔥",
+    title: "🚀 Docker-Docker-Compose with Python, Go, Shell, Php",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+      "How can Django, Express.js, Adonis.js, FastAPI, Flask, Posgresql, and Nginx run under one roof? One great answer is Docker Compose. This tutorial will show you how.",
+    src: "/DockerCompose.jpg",
+    link: "/DockerCompose.jpg",
+    color: "#fff",
+    githubLink: "https://github.com/codingforentrepreneurs/Docker-Docker-Compose",
+    liveLink: "https://www.codingforentrepreneurs.com/courses/docker-and-docker-compose",
+  },
+
+  {
+    title: "🚀 LLM + MCP + RAG with Typescript",
+    description:
+      "LLM + MCP + RAG",
+    src: "/llm-mcp.png",
+    link: "/llm-mcp.png",
+    color: "#fff",
+    githubLink: "https://github.com/sunnydev830/llm-mcp-rag",
+    // liveLink: "https://codewhisperer.vercel.app/",
+  },
+  {
+    title: "🚀 AI Chatbot with Typescript, Javascript, CSS",
+    description:
+      "A full-featured, hackable Next.js AI chatbot",
+    src: "/ai-chatbot.png",
+    link: "/ai-chatbot.png",
+    color: "#5196fd",
+    githubLink: "https://github.com/sunnydev830/ai-chatbot",
+    liveLink: "https://demo.chat-sdk.dev/",
+  },
+  {
+    title: "🚀 ShareGPT with Typescript, Javascript, CSS",
+    description:
+      "Easily share permanent links to ChatGPT conversations with your friends",
+    src: "/sharegpt.png",
+    link: "/sharegpt.png",
+    color: "#8f89ff",
+    githubLink: "https://github.com/sunnydev830/sharegpt",
+    // liveLink: "https://codervai.vercel.app",
+  },
+  {
+    title: "🚀 AirBnB with Python, t, CSS",
+    description:
+      "Built in python3, this project emulates the functioning of the AirBnB website.",
+    src: "/airbnb.png",
+    link: "/airbnb.png",
+    color: "#8f89ff",
+    githubLink: "https://github.com/sunnydev830/AirBnB",
+    // liveLink: "https://codervai.vercel.app",
+  },
+
+  {
+    title: "🚀 ControlFlow",
+    description:
+      "🦾 Take control of your AI agents",
+    src: "/controlflowr.png",
+    link: "/controlflowr.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/sunnydev830/ControlFlow",
+    // liveLink: "https://codekori.js.org",
   },
 ];
 

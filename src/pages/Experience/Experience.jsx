@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "FullStack Developer",
+      company: "AxiomCode Technologies",
+      period: "2017 - 2021",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Designed and built scalable web platforms and backend systems using Node.js, Golang, React, and Python. Integrated AI-driven features into dashboards and automation tools. Contributed to AI chatbot prototypes and workflow systems, laying the foundation for deeper AI engineering roles.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
+      title: "AI/NLP Engineer",
+      company: "LinguaTech AI",
       period: "2021 - 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Developed multilingual chatbots and semantic search systems using BERT and GPT-J. Focused on latency reduction and prompt-context window alignment. Supported enterprise use cases in ed-tech and customer support by tailoring model outputs and reducing prompt-token costs by 30%.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Senior AI Engineer",
+      company: "NeuroBotica Labs",
+      period: "2023 - 2024",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Led optimization of LLM pipelines for customer-facing AI applications. Improved token efficiency and reduced hallucinations using fine-tuning, retrieval-augmented generation (RAG), and prompt engineering. Collaborated with research and infrastructure teams to scale transformer-based architectures in production.",
     },
   ];
 

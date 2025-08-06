@@ -12,6 +12,8 @@ import {
   FaLinux,
   FaFigma,
   FaAws,
+  FaVuejs,
+  FaAngular,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -22,12 +24,22 @@ import {
   SiGraphql,
   SiJest,
   SiWebpack,
+  SiDjango,
   SiRedux,
   SiFirebase,
   SiVercel,
   SiVite,
+  SiSupabase,
+  SiFastapi,
+  SiFlask,
+  SiExpress,
+  SiPhp,
+  SiN8N,
+  SiLangchain,
+  SiZapier,
+  SiChatbot,
 } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
+import { TbAi, TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
@@ -77,6 +89,15 @@ const SkillsSection = () => {
           icon: <SiNextdotjs className="w-4 h-4 text-white" />,
         },
         {
+          name: "Vue.js",
+          icon: <FaVuejs className="w-4 h-4 text-white" />,
+        },
+        {
+          name: "Angular.js",
+          icon: <FaAngular className="w-4 h-4 text-white" />,
+        },
+
+        {
           name: "TypeScript",
           icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
         },
@@ -104,25 +125,36 @@ const SkillsSection = () => {
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+          name: "Django",
+          icon: <SiDjango className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+          name: "Express",
+          icon: <SiExpress className="w-4 h-4 text-[#339933]" />,
         },
         {
-          name: "MongoDB",
-          icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
+          name: "Php",
+          icon: <SiPhp className="w-4 h-4 text-[#339933]" />,
+        },
+
+        {
+          name: "Flask",
+          icon: <SiFlask className="w-4 h-4 text-[#339933]" />,
+        },
+
+        {
+          name: "Supabase",
+          icon: <SiSupabase className="w-4 h-4 text-[#339933]" />,
+        },
+        {
+          name: "FastAPI",
+          icon: <SiFastapi className="w-4 h-4 text-[#3776AB]" />,
         },
         {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+
       ],
     },
     {
@@ -136,32 +168,9 @@ const SkillsSection = () => {
           icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
         },
         {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-        },
-        {
           name: "Prototyping",
           icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
         },
-      ],
-    },
-    {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      color: "text-orange-400",
-      skills: [
-        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        {
-          name: "Docker",
-          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
-        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
     },
     {
@@ -185,6 +194,42 @@ const SkillsSection = () => {
         },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
+      ],
+    },
+    {
+      icon: TbAi,
+      title: "AI App Development",
+      color: "text-orange-400",
+      skills: [
+        {
+          name: "LLM Tuning",
+          icon: <SiLangchain className="w-4 h-4 text-[#2496ED]" />,
+        },                
+        {
+          name: "Big Data Technologies",
+          icon: <SiZapier className="w-4 h-4 text-[#2496ED]" />,
+        },
+        {
+          name: "MLOps",
+          icon: <SiN8N className="w-4 h-4 text-[#2496ED]" />,
+        },
+        {
+          name: "RAG",
+          icon: <SiZapier className="w-4 h-4 text-[#2496ED]" />,
+        },
+        {
+          name: "Langchain",
+          icon: <SiLangchain className="w-4 h-4 text-[#2496ED]" />,
+        },        
+        {
+          name: "Natural Language Processing",
+          icon: <SiN8N className="w-4 h-4 text-[#2496ED]" />,
+        },
+
+        {
+          name: "AI Chatbots",
+          icon: <SiChatbot className="w-4 h-4 text-[#2496ED]" />,
+        }
       ],
     },
     {

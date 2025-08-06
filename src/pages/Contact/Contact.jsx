@@ -112,11 +112,11 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <p className="text-gray-400">stardev324@gmail.com</p>
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
+                {/* <div className="flex items-center space-x-4">
                   <div className="bg-pink-500/10 p-3 rounded-lg">
                     <MapPin className="w-6 h-6 text-pink-400" />
                   </div>
@@ -124,7 +124,7 @@ export default function Contact() {
                     <h3 className="font-semibold">Location</h3>
                     <p className="text-gray-400">Laxmipure, Natore 6400</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
