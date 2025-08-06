@@ -8,29 +8,29 @@ const projects = [
     title: "An agentic AI-powered B2B",
     description:
       "An agentic AI-powered B2B lending platform focused on equipment financing, automating underwriting, servicing and credit workflows with smart SaaS tools.",
-    src: "/nuxt_supabase.png",
-    link: "/nuxt_supabase.png",
+    src: "/project1.png",
+    link: "/project1.png",
     color: "#fff",
     // githubLink: "https://github.com/sunnydev830/nuxt-supabase",
-    liveLink: "https://nuxt-supabase.netlify.app/",
+    // liveLink: "https://nuxt-supabase.netlify.app/",
   },
   {
     title: "Realtime AI credit scoring and decisioning",
     description:
       "Realtime AI credit scoring and decisioning project offering scorecards, behavioral analytics and automated risk predictions.",
-    src: "/DockerCompose.jpg",
-    link: "/DockerCompose.jpg",
+    src: "/project2.png",
+    link: "/project2.png",
     color: "#fff",
     // githubLink: "https://github.com/codingforentrepreneurs/Docker-Docker-Compose",
-    liveLink: "https://www.codingforentrepreneurs.com/courses/docker-and-docker-compose",
+    // liveLink: "https://www.codingforentrepreneurs.com/courses/docker-and-docker-compose",
   },
 
   {
     title: "AI powered commercial real estate",
     description:
       "AI powered commercial real estate lending project automating origination, portfolio intelligence, underwriting and deal monitoring",
-    src: "/llm-mcp.png",
-    link: "/llm-mcp.png",
+    src: "/project3.png",
+    link: "/project3.png",
     color: "#fff",
     // githubLink: "https://github.com/sunnydev830/llm-mcp-rag",
     // liveLink: "https://codewhisperer.vercel.app/",
@@ -39,42 +39,11 @@ const projects = [
     title: "AI agent application",
     description:
       "Provides turnkey AI agent applications that automate end to end lending, banking and wealth workflows for fintech innovation",
-    src: "/ai-chatbot.png",
-    link: "/ai-chatbot.png",
+    src: "/project4.png",
+    link: "/project4.png",
     color: "#5196fd",
     // githubLink: "https://github.com/sunnydev830/ai-chatbot",
-    liveLink: "https://demo.chat-sdk.dev/",
-  },
-  {
-    title: "🚀 ShareGPT with Typescript, Javascript, CSS",
-    description:
-      "Easily share permanent links to ChatGPT conversations with your friends",
-    src: "/sharegpt.png",
-    link: "/sharegpt.png",
-    color: "#8f89ff",
-    // githubLink: "https://github.com/sunnydev830/sharegpt",
-    // liveLink: "https://codervai.vercel.app",
-  },
-  {
-    title: "🚀 AirBnB with Python, t, CSS",
-    description:
-      "Built in python3, this project emulates the functioning of the AirBnB website.",
-    src: "/airbnb.png",
-    link: "/airbnb.png",
-    color: "#8f89ff",
-    // githubLink: "https://github.com/sunnydev830/AirBnB",
-    // liveLink: "https://codervai.vercel.app",
-  },
-
-  {
-    title: "🚀 ControlFlow",
-    description:
-      "🦾 Take control of your AI agents",
-    src: "/controlflowr.png",
-    link: "/controlflowr.png",
-    color: "#ed649e",
-    // githubLink: "https://github.com/sunnydev830/ControlFlow",
-    // liveLink: "https://codekori.js.org",
+    // liveLink: "https://demo.chat-sdk.dev/",
   },
 ];
 
