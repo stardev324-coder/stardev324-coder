@@ -11,7 +11,7 @@ const projects = [
     src: "/nuxt_supabase.png",
     link: "/nuxt_supabase.png",
     color: "#fff",
-    githubLink: "https://github.com/sunnydev830/nuxt-supabase",
+    // githubLink: "https://github.com/sunnydev830/nuxt-supabase",
     liveLink: "https://nuxt-supabase.netlify.app/",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     src: "/DockerCompose.jpg",
     link: "/DockerCompose.jpg",
     color: "#fff",
-    githubLink: "https://github.com/codingforentrepreneurs/Docker-Docker-Compose",
+    // githubLink: "https://github.com/codingforentrepreneurs/Docker-Docker-Compose",
     liveLink: "https://www.codingforentrepreneurs.com/courses/docker-and-docker-compose",
   },
 
@@ -32,7 +32,7 @@ const projects = [
     src: "/llm-mcp.png",
     link: "/llm-mcp.png",
     color: "#fff",
-    githubLink: "https://github.com/sunnydev830/llm-mcp-rag",
+    // githubLink: "https://github.com/sunnydev830/llm-mcp-rag",
     // liveLink: "https://codewhisperer.vercel.app/",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     src: "/ai-chatbot.png",
     link: "/ai-chatbot.png",
     color: "#5196fd",
-    githubLink: "https://github.com/sunnydev830/ai-chatbot",
+    // githubLink: "https://github.com/sunnydev830/ai-chatbot",
     liveLink: "https://demo.chat-sdk.dev/",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     src: "/sharegpt.png",
     link: "/sharegpt.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/sunnydev830/sharegpt",
+    // githubLink: "https://github.com/sunnydev830/sharegpt",
     // liveLink: "https://codervai.vercel.app",
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     src: "/airbnb.png",
     link: "/airbnb.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/sunnydev830/AirBnB",
+    // githubLink: "https://github.com/sunnydev830/AirBnB",
     // liveLink: "https://codervai.vercel.app",
   },
 
@@ -73,7 +73,7 @@ const projects = [
     src: "/controlflowr.png",
     link: "/controlflowr.png",
     color: "#ed649e",
-    githubLink: "https://github.com/sunnydev830/ControlFlow",
+    // githubLink: "https://github.com/sunnydev830/ControlFlow",
     // liveLink: "https://codekori.js.org",
   },
 ];

@@ -54,14 +54,16 @@ export default function Hero() {
 
   const [code] = useState(`
 const profile = {
-    name: 'Sunny',
-    title: 'Full-Stack | AI-App Developer',
+    name: 'Adrian Navarro',
+    title: 'Senior AI Engineer',
+
+
+
+
     skills: [
-        'React', 'NextJS' ,'Vue.js', 'Tailwind CSS'
-        'Django', 'Flask', 'FastAPI', 'Node.js', 'Laravel'
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript'
-        'GraphQL', 'Git', 'Linux', 'ASP.NET','Express'
-        'N8N', 'Zapier', 'RAG', 'MCP', 'LLM', 'Langchain'
+        "LLM Tuning", "Retrieval Augmented Generation", "AI Agents", "Chatbot", "MLOps", "Cloud ML",
+        "Big Data Technologies", "LangChain", "Automation", "Data Pipeline", "Multimodal AI",
+        "AI SaaS", "Workflow AI", "Natural Language Processing", "AI Builder"
     ],
     hardWorker: true,
     quickLearner: true,
@@ -71,8 +73,8 @@ const profile = {
         return (
             this.hardWorker &&
             this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.skills.length >= 10 &&
+            this.yearsOfExperience >= 5
         );
     }
 };
@@ -224,17 +226,17 @@ const profile = {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
-                <a
+                {/* <a
                   href="https://github.com/sunnydev830"
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
-                >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
+                > */}
+                  {/* <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
                       <span>Learn More</span>
                       <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
                     </span>
                   </span>
-                </a>
+                </a> */}
 
                 {/* Contact Button */}
                 {/* <a
